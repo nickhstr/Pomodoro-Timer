@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Nick's Pomodoro Timer</title>
+
+		<link href="style.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	</head>
+
+	<body>
+	  <div class="time-box">
+	    <h1 class="text-center">Nick's Pomodoro Timer</h1>
+	    <div class="row">
+	      <div class="adjusters break-length col-xs-6 text-center row">
+	        <p class="adj-title">Break</p>
+	        <button class="bttn-top" id="b-minus">-</button>
+	        <h2 id="break">5</h2>
+	        <button class="bttn-top" id="b-plus">+</button>
+	      </div>
+	      <div class="adjusters session-length col-xs-6 text-center row">
+	        <p class="adj-title">Session</p>
+	        <button class="bttn-top" id="s-minus">-</button>
+	        <h2 id="session">25</h2>
+	        <button class="bttn-top" id="s-plus">+</button>
+	        <div id="timer"></div>
+	      </div>
+	    </div>
+	    <div class="pomo-timer row">
+	      <div class="clock col-xs-12 text-center">
+	        <p id="title">It's go time!</p>
+	        <p id="pomodoro">25</p>
+	        <button class="bttn-btm" id="start">Start</button>
+	        <button class="bttn-btm" id="stop">Stop</button>
+	        <button class="bttn-btm" id="reset">Reset</button>
+	      </div>
+	    </div>
+	  </div>
+
+	  <script src="main.js"></script>
+	</body>
+
+</html>
